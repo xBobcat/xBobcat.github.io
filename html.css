@@ -1,7 +1,18 @@
+body{
+	background-color: #8ABD5F;
+}
+
 p {
-	color:red;
+	color: #224C00;
 }
 
 h1{
-	color:green;
+	font-family: impact, helvetica, san-serif;
+}
+#importantFriday {
+	border: 100px;
+	border-style: solid;
+	border-width: 2px;
+	margin: 50px;
+	padding: 25px;
 }
