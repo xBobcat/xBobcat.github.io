@@ -1,18 +1,19 @@
 body{
-	background-color: #8ABD5F;
+	background-color: #E38248;
 }
 
 p {
-	color: #224C00;
+	color: #6B2800;
 }
 
 h1{
 	font-family: impact, helvetica, san-serif;
 }
-#importantFriday {
+.importantFriday {
 	border: 100px;
 	border-style: solid;
 	border-width: 2px;
 	margin: 50px;
 	padding: 25px;
+	font-size: 1.5em;
 }
