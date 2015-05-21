@@ -1,5 +1,7 @@
 body{
-	background-color: #E38248;
+	position: absolute;
+	background-color: #9177AC;
+
 }
 
 p {
@@ -7,9 +9,11 @@ p {
 }
 
 h1{
+	border-style: solid;
+	border-color: #1E0439
 	font-family: impact, helvetica, san-serif;
 }
-.importantFriday {
+.important{
 	border: 100px;
 	border-style: solid;
 	border-width: 2px;
@@ -17,3 +21,15 @@ h1{
 	padding: 25px;
 	font-size: 1.5em;
 }
+#navBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+	text-align: center;
+    margin: 0 220px;
+}
+
