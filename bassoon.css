@@ -1,7 +1,6 @@
 body{
 	position: absolute;
-	background-color: #9177AC;
-
+	background-color: #310138;
 }
 
 p {
@@ -10,7 +9,7 @@ p {
 
 h1{
 	border-style: solid;
-	border-color: #1E0439
+	border-color: #83478B
 	font-family: impact, helvetica, san-serif;
 }
 .important{
@@ -26,10 +25,16 @@ h1{
     top: 0;
     left: 0;
     width: 200px;
+	background-color: #83478B;
 }
 
 #content {
+	font-family: 'Droid Serif', serif;
 	text-align: center;
     margin: 0 220px;
+	background-color: #9177AC;
+	list-style-type: none;
 }
-
+ul {
+    list-style-type: square;
+}
