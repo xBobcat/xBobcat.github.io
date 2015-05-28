@@ -3,25 +3,24 @@ body{
 	background-color: #310138;
 }
 
+h1{
+	border-style: solid;
+	border-color: #310138;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h3{
+	font-size: 12px;
+	margin-top: 0px;
+}
+
 p {
 	color: #6B2800;
 }
 
-h1{
-	border-style: solid;
-	border-color: #83478B
-	font-family: impact, helvetica, san-serif;
-}
-.important{
-	border: 100px;
-	border-style: solid;
-	border-width: 2px;
-	margin: 50px;
-	padding: 25px;
-	font-size: 1.5em;
-}
 #navBar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 200px;
@@ -34,7 +33,10 @@ h1{
     margin: 0 220px;
 	background-color: #9177AC;
 	list-style-type: none;
+	padding: 5px;
 }
 ul {
     list-style-type: none;
+    padding: 20px;
+    margin: 0px;
 }
